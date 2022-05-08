@@ -30,7 +30,7 @@
         let pickServer = document.getElementById("pickServer").value;
         console.log(pickServer);
         if(pickServer == 1){
-            document.getElementById("resultnya").src = 'https://www.yt-download.org/@api/button/mp3/' + yutubId;
+            document.getElementById("resultnya").src = 'https://yt-download.org/api/button/mp3?url=' + dataYutub;
         }else {
             document.getElementById("resultnya").src = 'https://api.youtube-mp3.org.in/widget/button/audio/' + yutubId;
         }
